@@ -1,0 +1,18 @@
+{
+    "answers": [
+        {
+            "career": "IT",
+            "horoscope": "aries",
+            "result": "UwU"
+        },
+        {
+            "career": "IT",
+            "horoscope": "virgo",
+            "result": "OwO"
+        },{
+            "career": "healthcare",
+            "horoscope": "aries",
+            "result": "O.o"
+        }
+    ]
+}

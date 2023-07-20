@@ -1,18 +1,24 @@
 {
-    "answers": [
-        {
-            "career": "IT",
-            "horoscope": "aries",
-            "result": "UwU"
-        },
-        {
-            "career": "IT",
-            "horoscope": "virgo",
-            "result": "OwO"
-        },{
-            "career": "healthcare",
-            "horoscope": "aries",
-            "result": "O.o"
-        }
-    ]
+  "answers": [
+    {
+      "career": "IT",
+      "zodiac": "Aries",
+      "answer": "UwU"
+    },
+    {
+      "career": "IT",
+      "zodiac": "Virgo",
+      "answer": "OwO"
+    },
+    {
+      "career": "healthcare",
+      "zodiac": "Aries",
+      "answer": "O.o"
+    },
+    {
+      "career": "Career 1",
+      "zodiac": "Aries",
+      "answer": "Fetch Working UwU"
+    }
+  ]
 }

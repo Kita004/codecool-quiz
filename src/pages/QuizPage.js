@@ -1,12 +1,19 @@
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-export const QuizPage = ({ fetchAnswer, children }) => {
+export const QuizPage = ({ fetchAnswer, checkValidity, errMsg, children }) => {
   const nav = useNavigate();
+
   const onNext = () => {
-    fetchAnswer();
-    nav("/contact");
+    const isAllValid = checkValidity("quiz");
+    if (isAllValid) {
+      fetchAnswer();
+      nav("/contact");
+    } else {
+      console.log("NOPE");
+    }
   };
+
   return (
     <div id="quiz-page">
       <h2>My...</h2>
